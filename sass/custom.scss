@@ -1,4 +1,5 @@
 body {
+    //new
     font-family: 'Poppins', sans-serif;
     padding: 0px;
     margin: 0px;
@@ -514,7 +515,7 @@ nav {
 //             // margin-right: 20px;  updated
 //             position: relative;
 
-
+                      
 //             h2 {
 //                 color: #FFF;
 //                 text-align: center;
@@ -622,7 +623,7 @@ nav {
     .row1 {
 
         display: grid;
-        grid-template-columns: auto auto auto;
+        grid-template-columns: repeat(3, 1fr);
 
         gap: 54px;
 
@@ -687,6 +688,7 @@ nav {
                 bottom: -17px;
                 width: inherit;
                 display: none;
+                left: -15px;
 
 
                 justify-content: center;
@@ -711,7 +713,7 @@ nav {
                     color: rgb(255, 255, 255);
                     margin-left: 130px;
                     cursor: pointer;
-
+                   padding: 0 20px;
                     color: #FFF;
 
                     // color: #FFF;
@@ -1083,6 +1085,9 @@ nav {
         font-weight: 300;
         line-height: 45px;
         /* 281.25% */
+        &:hover{
+            color: #e07d1a;
+        }
 
         
     }

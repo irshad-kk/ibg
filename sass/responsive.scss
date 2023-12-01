@@ -51,26 +51,35 @@
 @media screen and (max-width: 1200px) {
 
   nav {
-    .links ul {
-      float: right;
+      display: flex;
+      justify-content: space-between;
+    .links {
 
-      li  {
-        a {
-         display: none;
-
-
-        }
-        a.icon{
-          
-          display: block;
-        }
-        
-      }
       
+      ul {
+        
+  
+        li {
+          a {
+            display: none;
+  
+  
+          }
+  
+          a.icon {
+  
+            display: block;
+          }
+  
+        }
+  
+      }
     }
 
-    .cntct-btn{
-      .btn1{
+    
+
+    .cntct-btn {
+      .btn1 {
         display: none;
       }
     }
