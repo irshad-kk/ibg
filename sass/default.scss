@@ -1,0 +1,23 @@
+a {
+    text-decoration: none;
+    
+}
+li {
+    list-style-type: none;
+}
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0  15px;
+    margin: 0 auto;
+
+        // margin: 0 auto;
+    // // padding: 0 16px;
+    // max-width: 80%;
+
+    
+}
+*{
+    box-sizing: border-box;
+}
